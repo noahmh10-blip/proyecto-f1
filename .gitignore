@@ -1,0 +1,14 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de dependencias (las usarás en fases futuras)
+node_modules/
+vendor/
+
+# Variables de entorno y contraseñas
+.env
+.env.local
+
+# Archivos temporales de VS Code
+.vscode/settings.json
