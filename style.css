@@ -4,30 +4,22 @@
 
 :root{
    --color-fondo: #15151e;
-   --color-acento: #FF8000;
+   --color-acento: #e8002d;
    --color-texto: #ffffff;
    --color-secundario: #909090;
    --color-tarjeta: #1f1f2e;
    --color-borde: #2f2f3e;
 }
 
+/* ================================
+   BASE
+   ================================ */
 body{
     background-color: var(--color-fondo);
     color: var(--color-texto);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
- }
-
- h1{
-   font-size: 48px; /* tamaño */
-   font-weight: bold;  /* grosor: normal, bold, 100-900 */
-   font-style: italic; /* normal o italic */
-   text-align: center;  /* left, center, right */
-   text-transform: uppercase; /* MAYÚSCULAS automáticas */
-   letter-spacing: 3px; /* espacio entre letras */
-   line-height: 1.5; /* altura de línea */
-   color: var(--color-acento);
  }
 
 /* ================================
