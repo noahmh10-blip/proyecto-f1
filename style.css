@@ -54,3 +54,32 @@ p {
    line-height: 1.7;
    color: var(--color-texto);
 }
+
+/* ================================
+   LAYOUT BASE
+   ================================ */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+header {
+  background-color: var(--color-tarjeta);
+  padding: 20px;
+  border-bottom: 3px solid var(--color-acento);
+}
+
+footer {
+  background-color: var(--color-tarjeta);
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid var(--color-acento);
+  margin-top: 40px;
+  color: var(--color-secundario);
+}
