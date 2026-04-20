@@ -1,7 +1,15 @@
+/* ================================
+   RESET UNIVERSAL
+   ================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* ===============================
    VARIABLES - Paleta Oficial F1
    =============================== */
-
 :root{
    --color-fondo: #15151e;
    --color-acento: #e8002d;
@@ -53,15 +61,6 @@ h3{
 p {
    line-height: 1.7;
    color: var(--color-texto);
-}
-
-/* ================================
-   RESET UNIVERSAL
-   ================================ */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /* ================================
