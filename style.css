@@ -56,6 +56,15 @@ p {
 }
 
 /* ================================
+   RESET UNIVERSAL
+   ================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================================
    LAYOUT BASE
    ================================ */
 main {
@@ -82,4 +91,33 @@ footer {
   border-top: 3px solid var(--color-acento);
   margin-top: 40px;
   color: var(--color-secundario);
+}
+
+/* ================================
+   NAVEGACIÓN
+   ================================ */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: var(--color-texto);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--color-acento);
+  border-color: var(--color-acento);
+  color: white;
 }
